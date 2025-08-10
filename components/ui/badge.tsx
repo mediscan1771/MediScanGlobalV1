@@ -1,0 +1,1 @@
+import React from 'react';export function Badge({children,variant='default',className=''}){const styles=variant==='secondary'?'bg-slate-100 text-slate-700':'bg-slate-900 text-white';return <span className={`px-2 py-0.5 text-xs rounded-full ${styles} ${className}`}>{children}</span>}
